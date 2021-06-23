@@ -32,19 +32,19 @@
         <form action="save_task.php" method="POST">
 
         <p>Nombre</p>
-        <input type="text" id="nombre" name="nombre" required minlength="4" maxlength="100" size="50">
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese Su Nombre" required minlength="4" maxlength="100" size="50">
         <br>
 
         <p>Apellido</p>
-        <input type="text" id="apellido" name="apellido" required minlength="4" maxlength="100" size="50">
+        <input type="text" id="apellido" name="apellido" placeholder="Ingrese Su Apellido" required minlength="4" maxlength="100" size="50">
         <br>
 
         <p>Edad</p>
-        <input type="number" id="edad" name="edad" required minlength="1" maxlength="3" size="50">
+        <input type="number" id="edad" name="edad" placeholder="Ingrese Su Edad" required minlength="1" maxlength="3" size="50">
         <br>
 
         <p>Telefono</p>
-        <input type="number" id="tel" name="tel" required minlength="8" maxlength="15" size="50">
+        <input type="number" id="tel" placeholder="Ingrese Su Numero cel" name="tel" required minlength="8" maxlength="15" size="50">
         <br>
         
         <p>Indique su genero</p>
@@ -59,6 +59,7 @@
         </form>      
     </div>
 </td>
+			
 <!--Fin del formulario-->
 <!--Cargo los datos-->
 <td>
